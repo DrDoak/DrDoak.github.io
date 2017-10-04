@@ -1,27 +1,13 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#000000">
-    <title>LuoLei Zhao: Software Engineer</title>
+<!DOCTYPE html>
+	<html>
+	<script src="angular.min.js"></script>
+	<title>LuoLei Zhao: Software Engineer</title>
+<body>
+	<div ng-app="">
+		<p>Input something in the input box:</p>
+		<p>Name: <input type="text" ng-model="name"></p>
+		<p>{{name}}</p>
+	</div>
 
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script>
-      $(document).ready(function(){
-          $("button").click(function(){
-              $("p").hide();
-          });
-      });
-    </script>
-  </head>
-  <body>
-
-    <h2>This is a heading</h2>
-
-    <p>This is a paragraph.</p>
-    <p>This is another paragraph.</p>
-
-    <button>Click me to hide paragraphs</button>
-  </body>
+</body>
 </html>
