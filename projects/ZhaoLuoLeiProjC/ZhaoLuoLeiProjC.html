@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Zhao LuoLei Project C: Return to the Imperial Base</title>
+  </head>
+
+  <body onload="main()" onresize="winResize()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+	<br>
+    Move around with the WASD Keys.<BR> 
+    You can use W and S to walk forwards/backwards<BR> 
+    Use A and D to strafe <BR> <BR> 
+    You can float up and down using the R and F Keys <BR> 
+    Look around using the arrow keys <BR> <BR> 
+    To switch between Blinn lighting and Phong lighting, use the G key <BR> <BR> 
+    To switch between Gourand Shadinga and Phong shading, use the H key <BR> <BR> 
+
+    Press Space to turn your "Headlight" on and off <BR> 
+    You can move the cube of light using the I, J, K and L keys <BR> 
+    Control is similar to the W,A,S and D keys.<BR> <BR> 
+    In addition, you can change the following properties of the cube<BR> 
+	 Adjust Ambient R,G B Values
+    <input type="number" id='ambientR' size=10> 
+    <input type="number" id='ambientG' size=10> 
+    <input type="number" id='ambientB' size=10> 
+    <button type="button" onClick='ambientSubmit()'>Submit</button><BR> 
+       Adjust Diffuse R,G B Values
+    <input type="number" id='diffuseR' size=10> 
+    <input type="number" id='diffuseG' size=10> 
+    <input type="number" id='diffuseB' size=10> 
+    <button type="button" onClick='diffuseSubmit()'>Submit</button><BR> 
+       Adjust Specular R,G B Values
+    <input type="number" id='specularR' size=10> 
+    <input type="number" id='specularG' size=10> 
+    <input type="number" id='specularB' size=10> 
+    <button type="button" onClick='specularSubmit()'>Submit</button><BR> 
+    <button type="button" onClick='toggleLight()'>Toggle Cube Light On/Off</button><BR> 
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+		<script src="materials_Ayerdi.js"></script>
+		<script src="lights-JT.js"></script>
+    <script src="ZhaoLuoLeiProjC.js"></script>
+  </body>
+</html>

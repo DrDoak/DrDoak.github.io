@@ -1,0 +1,215 @@
+/* CSS and Font Imports */
+
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+/* Page Styling */
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+a:active {
+    text-decoration: underline;
+    color: #7F0000;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: VT323, Arial;
+	user-select: none;
+}
+
+.body-section {
+	background-image: url(../img/textbox_entry.png) ;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	min-width: 700px;
+	width: 75%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+.body-bkg {
+	width: 100%;
+    height: 100%;
+}
+p {
+	padding: 14.4px 0px;
+	margin: 0;
+}
+
+hr {
+	color: white;
+}
+
+#index-title {
+	background-image: url(../img/title.png);
+	background-size: cover;
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	height: 89.0625vh;
+	max-height: 900px;
+	min-height: 525px;
+	min-width: 700px;
+}
+
+#larry-name {
+	position:relative; 
+	top:80%;
+	left: 1%;
+	width: 80%;
+	font-size: 3em;
+	color: white;
+}
+#larry-slogan {
+	position:relative; 
+	top:85%;
+	left: 1%;
+	width: 80%;
+	font-size: 2em;
+	color: white;
+}
+
+#index-nav {
+	background-image: url(../img/ground.png);
+	background-size: auto 100%;
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	min-height: 60px;
+	height: 10.9375vh;
+	max-height: 128px;
+	min-width: 700px;
+}
+
+#index-nav ul {
+	height: 100%;
+	margin: auto;
+	padding: 0;
+	display: table;
+	text-align: center;
+}
+
+#index-nav ul li {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0px 40px 0px 40px;
+	font-size: 2.2em;
+	color: white;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+.sticky ul li {
+	display: inline;
+	-webkit-transition: opacity 1s;
+	-moz-transition: opacity 1s;
+	-o-transition: opacity 1s;
+	transition: opacity 1s;
+	opacity: 1 !important;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	float: center;
+	width: 100%;
+}
+
+#index-body {
+	background-image: url(../img/brick.png);
+	background-repeat: repeat;
+	background-position: left bottom;
+	color: white;
+	text-align: center;
+	min-height: 100vh;
+	min-width: 700px;
+}
+
+#index-body h1, h2, h3, h4, h5 h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 3px 3px black;
+}
+
+#index-body hr {
+	box-shadow: 0px 2px black;
+}
+
+#index-body h2 {
+	font-size: 3.4em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#index-body h3 {
+	font-size: 2.5em;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+#index-body p {
+	font-size: 1.8em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.sub-list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sub-list li {
+	color: white;
+	font-size: 1.5em;
+	padding-bottom: 20px;
+}
+
+.sub-list li:last-child {
+	padding-bottom: 0px;
+}
+
+.desc-content {
+	position: relative;
+	top: 10%;
+	padding-left: 10%;
+	width: 80%;
+	/*float: left;*/
+}
+
+#about-logo {
+	margin-left: 30%;
+	width: 40%;
+	display: block;
+	/*box-shadow: 2px 2px 2px black;*/
+}
+
+/* Animations */
+
+/*.body-section {
+	background-image: url(../img/textbox_entry.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+	min-width: 700px;
+	width: 75%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto; 
+}
+*/

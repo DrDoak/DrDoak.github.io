@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>01_LineGrid Ray-Tracing</title>
+  </head>
+  <body onload="main()" onresize="browserResize()">
+    <canvas id="webgl" width="800" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+    <button type="button" onclick="switchLight1()" >Toggle Headlight</button> 
+    <button type="button" onclick="switchLight2()"> Toggle Other Light</button>
+    <button type="button" onclick="switchScene()"> Switch Scene</button><BR>
+    <button type="button" onclick="toggleReflect()"> Toggle Reflectancies</button><BR>
+    Current Number of Reflectancies: <div id='reflection'> 0</div><BR>
+    <button type="button" onclick="toggleAntiAlias()"> Toggle Aliasing </button><BR>
+    Current Aliasing Dimension: <div id='jitterdim'> 1 x 1</div>
+    <button type="button" onclick="toggleJitter()"> Toggle Jittering </button><BR>
+    Current Jitter Setting: <div id='jittering'> False</div>
+
+    <br>
+    Controls <BR>
+    Use the W,A,S,D keys to move. <BR>
+    Use the I,J, K, L keys to look around. <BR>
+    Use the O,K,L, and ; keys to move the center of the roaming light<BR>
+    Use the "R" key to Retrace the screen<BR>
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+    <script src="./lib/cuon-matrix-quat.js"></script> <! JT modified to add quaternions -->
+	  <script src="./lib/glmatrix.js"></script> <! SEE: http://glmatrix.net/ fast vector/matrix lib for webGL  -->
+    <script src="lights-JT.js"></script>
+    <script src="materials_Ayerdi.js"></script>
+    <script src="VBOboxes.js"></script>
+    <script src="traceLighting.js"></script>
+  </body>
+</html>

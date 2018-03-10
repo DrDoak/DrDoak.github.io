@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>LuoLei Zhao State System Activity</title>
+  </head>
+	<!--	Create the HTML5 'canvas' element in which we will run WebGL
+	-->
+  <body onload="main()">
+ <br>
+    <canvas id="webgl" width="400" height="400">
+    	Please use a browser that supports "canvas"
+    </canvas> 
+    <p>
+      <button type="button" onclick="switchRope()" >Switch Rope Solver</button>
+      Rope Solver: <div id='RopeSolver'> Look here... </div>
+      <button type="button" onclick="switchFire()"> Switch Fire Solver</button>
+      Fire Solver: <div id='FireSolver'> Look here... </div>
+      <button type="button" onclick="switchCloth()"> Switch Cloth Solver</button>
+      Cloth Solver: <div id='ClothSolver'> Look here... </div>
+      <button type="button" onclick="switchMagnet()"> Switch Magnet Solver</button>
+      Magnet Solver: <div id='MagnetSolver'> Look here... </div>
+      <button type="button" onclick="switchBoids()"> Switch Boids Solver</button>
+      Boids Solver: <div id='BoidsSolver'> Look here... </div>
+      <button type="button" onclick="switchBlack()"> Switch Black Hole Solver</button>
+      Black hole Solver: <div id='BlackHoleSolver'> Look here... </div>
+      <button type="button" onclick="switchNormal()"> Switch Bouncy Ball Solver</button>
+      Bouncy Ball Solver: <div id='NormalSolver'> Look here... </div>
+	<!-- Make a 'div' element to hold changeable HTML made in our JavaScript file;
+		 (where? look at the end of 'BouncyBall02.js' at 
+			myKeyPress(), myKeyDown() and myKeyUp() fcns)
+	-->
+		<br>
+    Controls <BR>
+		Use the W,A,S,D keys to move. <BR>
+		Use the I,J, K, L keys to look around. <BR>
+    Use the O,K,L, and ; keys to move the center of the black hole <BR>
+    Use the "T" key to randomize the velocities of the Rope Particle system <BR>
+    Use the "R" key to randomize the velocities of the Cloth system <BR>
+    Use the "E" key to randomize the velocities of the bouncy ball system <BR>
+	</p>
+	<!--	Load in the JavaScript libraries supplied by our textbook 
+			(Matsuda et al., 2013 WebGL Programming Guide) that help us
+			with WebGL programming:
+	-->
+    <script src="./lib/webgl-utils.js"></script>
+    <script src="./lib/webgl-debug.js"></script>
+    <script src="./lib/cuon-utils.js"></script>
+	<!-- We modified the library cuon-matrix.js from the book 
+		"WebGL Programming Guide"(K. Matsuda, 2013),
+		to add matrix-stack and quaternion capabilities, 
+		and renamed it cuon-matrix-quat.js -->
+    <script src="../lib/cuon-matrix-quat.js"></script> 
+	<!--	Finally, load in our own JavaScript program file.
+	-->
+    <script src="ZhaoLuoLeiProjectA.js"></script>
+  </body>
+</html>

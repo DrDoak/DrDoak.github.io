@@ -1,0 +1,30 @@
+.event-image {
+  float: left;
+/*  display: inline;*/
+  width: 25%;
+  margin-left: 20%
+  min-height: 50px;
+}
+
+.event-content {
+  padding-left: 10%;
+  width: 80%;
+}
+
+.event-break {
+  clear: both;
+  height: 40px;
+}
+
+.ev-title {
+	float: right;
+	margin-right: 40%;
+  	font-size: 2.3em !important; 
+  	height: : 20%;
+}
+
+.ev-text {
+  width: 60%;
+  margin-left: 10%;
+  float: left;
+}
