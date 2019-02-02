@@ -36,6 +36,53 @@ a:hover {
     background-image: url(../img/button_hover.png) ;
 }
 
+#center-image {
+	text-align: center;
+}
+#little-deity {
+	background-image: url(../img/Little_Deity_gameplay.gif) ;
+	height: 390px;
+   	width: 736px;
+   	display: inline-block
+}
+#little-deity:hover {
+	background-image: url(../img/Little_Deity_Unity.gif) ;
+	display: inline-block
+}
+
+#Quintessance {
+	background-image: url(../img/Quintessance_demo.gif) ;
+	height: 508px;
+   	width: 693px;
+   	display: inline-block
+}
+#Quintessance:hover {
+	background-image: url(../img/Quintessance_unity.gif) ;
+	display: inline-block
+}
+
+#NewSol {
+	background-image: url(../img/Sol_demo.gif) ;
+	height: 364px;
+   	width: 604px;
+   	display: inline-block
+}
+#NewSol:hover {
+	background-image: url(../img/Sol_edit.gif) ;
+	display: inline-block
+}
+
+#Lua {
+	background-image: url(../img/lua_demo.gif) ;
+	height: 319px;
+   	width: 693px;
+   	display: inline-block
+}
+#Lua:hover {
+	background-image: url(../img/lua_title.gif) ;
+	display: inline-block
+}
+
 a:active {
     text-decoration: underline;
     color: #7F0000;
@@ -166,7 +213,7 @@ hr {
 }
 
 #index-body p {
-	font-size: 1.8em;
+	/*font-size: 1.8em;*/
 }
 
 .text-center {
@@ -256,6 +303,10 @@ hr {
 	top:15%;
 	left: 1%;
 	font-size: 2em;
+}
+
+.smaller-text {
+	font-size: 1.2em;
 }
 
 /*.body-section {
