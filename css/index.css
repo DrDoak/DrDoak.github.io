@@ -251,6 +251,12 @@ hr {
 	/*box-shadow: 2px 2px 2px black;*/
 }
 
+#profile-pic {
+	margin-left: 35%;
+	width: 30%;
+	display: block;
+}
+
 /* Animations */
 
 .scroll {
