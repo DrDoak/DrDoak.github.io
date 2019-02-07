@@ -2,7 +2,7 @@
 
 const navbarId = 'index-nav';
 const navStickyClassName = 'sticky';
-const titleId = 'index-title';
+const titleId = 'title-card';
 const bodyId = 'index-body';
 const textFlashId = 'text-flashing';
 
