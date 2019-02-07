@@ -20,8 +20,16 @@
 .ev-title {
   font-size: 2.3em !important; 
   height: 20%;
+  font-family: 'Spectral SC';
+  color: #FFCE2D;
+  text-decoration-color: #FFCE2D;
 }
 
+.ev-title:hover{ 
+  color: #876D18;
+  text-decoration-color: #876D18;
+}
 .ev-text {
-  font-size: 1.8em;
+  font-size: 1.5em;
+  font-family: 'Spectral SC';
 }

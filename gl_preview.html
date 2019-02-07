@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>LuoLei "Larry" Zhao</title>
+		<meta name="description" content="LuoLei 'Larry' Zhao has a masters in computer science at Northwestern University and enjoys 
+			working at the Interdisciplinary Crossroads between programming, art, design, and management.">
+		<meta name="keywords" content="LuoLei,Larry,Zhao,Computer,Science,Software,Developer,Interdisciplinary,Game,Development">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="application-name" content="LuoLei_Zhao">
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+		<!-- Stylesheets -->
+		<link href="css/index.css" rel="stylesheet">
+		<link href="css/gl.css" rel="stylesheet">
+		<link href="css/event.css" rel="stylesheet">
+
+		<!-- JQuery -->
+		<script src="js/jquery-3.2.1.min.js"></script>
+
+	</head>
+	<body>
+		<nav id="index-nav">
+			<ul>
+				<li><a href="./index.html" class="resume-button">  Return  </a></li>
+			</ul>
+		</nav>
+		<div id="index-body">
+			<div id="projects" class="body-section">
+				<h2 style="color:#2b9e3e">OpenGL/WebGL Projects</h2>
+					<div class="event-break"></div>
+					
+					<div id="event-holder">
+						<div class="event-content">
+							<a href="./projects/GLRayTrace/GLRayTrace.html" target="_blank">
+								<p class="ev-title">Raytracing Effects</p>
+							<div id="gl-image_holder " >
+								<img src="./img/gl_raytrace.png" id="gl-img" ></div></a>
+							<p class="smaller-text"> 
+							With this demo, I explored the mechanics behind rendering high-quality frames using <span style="color:#FF7D14">RayTracing</span>. Using <span style="color:#FF7D14">Web-GL</span> I recreated the vector math behind raytracing. I worked with complex <span style="color:#FF7D14">Transluscent and Refracting surfaces</span>, and even <span style="color:#FF7D14">Procedural, mathematically derived materials</span> for textured surfaces. In addition, I experimented with varying levels of<span style="color:#FF7D14"> Anti-Aliasing</span>, as well as <span style="color:#FF7D14">Jittering</span> to reduce jagged lines. With this demo, you can test and compare effects of these various optimization settings yourself.</p>
+							<a href="./projects/GLRayTrace/GLRayTrace.html" target="_blank"><p class="smaller-text"> Click to Open Interactive Demo</p></a>
+							<a href="./projects/GLRayTrace/GLRayTrace.pdf" target="_blank"><p class="smaller-text"> Instructions and Description</p></a>
+
+						</div>
+						<div class="event-break"></div>
+						<div class="event-content">
+							<a href="./projects/GLParticles/GLParticles.html" target="_blank">
+								<p class="ev-title">Particle Systems</p>
+							<div id="gl-image_holder " >
+								<img src="./img/gl_particles.gif" id="gl-img" ></div></a></a>
+							<p class="smaller-text"> 
+							I found <span style="color:#FF7D14">Particle Systems</span> to be one of the most exciting tools in a Technical Artist's toolkit. While I have created any particle systems in editors such as <span style="color:#FF7D14">Unity</span>, I sought to understand the underlaying structure behind particles. Here, I created systems replicating <span style="color:#FF7D14">3D Cloth Physics</span>, <span style="color:#FF7D14">Boids Avoidence</span>, and even Coulomb's Law. While doing so, I experiemented with various physics solvers ranging from <span style="color:#FF7D14">Midpoint, Implicit, to AdamsBashforth solvers </span>. You can compare the differences yourself in this demo!</p>
+							<a href="./projects/GLParticles/GLParticles.html" target="_blank"><p class="smaller-text">Click to Open Interactive Demo</p></a>
+							<a href="./projects/GLParticles/GLParticlesDescription.pdf" target="_blank"><p class="smaller-text"> Instructions and Description</p></a>
+						</div>
+						<div class="event-break"></div>
+						<div class="event-content">
+							<a href="./projects/GLScene2/GLScene2.html" target="_blank">
+								<p class="ev-title">Vertex Buffers and Scene Graphs</p>
+							<div id="gl-image_holder " >
+								<img src="./img/gl_scenegraph.gif" id="gl-img" ></div></a></a>
+							<p class="smaller-text">
+								In this project, I replicated the <span style="color:#FF7D14">vertex and index buffers</span> that all vertex data must travel through in order to render. I applied position and color data to each vertex, creating a unique "metallic" shade. I also designed a rudimentary <span style="color:#FF7D14">scene-graph system</span> that allowed for many "joints", modifying the transforms upon each step. In addition, I implemented a <span style="color:#FF7D14">Quaternion</span> system for rotation.
+							</p>
+							<a href="./projects/ZhaoLuoLei_projA/ZhaoLuoLei_projA.html" target="_blank"><p class="smaller-text">Click to Open Interactive Demo A</p></a>
+							<a href="./projects/ZhaoLuoLei_projA/GLScene1.pdf" target="_blank"><p class="smaller-text"> Project A Description and Instructions</p></a>
+							<a href="./projects/GLScene2/GLScene2.html" target="_blank"><p class="smaller-text">Click to Open Interactive Demo B</p></a>
+							<a href="./projects/GLScene2/GLScene2.pdf" target="_blank"><p class="smaller-text">Project A Description and Instructions</p></a>
+
+						</div>
+						<div class="event-break"></div>
+						<div class="event-content">
+							<a href="./projects/GLShaders/GLShaders.html" target="_blank">
+								<p class="ev-title">Blinn-Phong Shaders</p>
+							<div id="gl-image_holder " >
+								<img src="./img/gl_shading.gif" id="gl-img" ></div></a></a>
+							<p class="smaller-text">
+								Like Particle systems, I found shaders to be an unbelievably useful tool that made what was previously impossible, possible. While I have used many <span style="color:#FF7D14">"Shadergraph"</span> tools to create various artistic shaders, I also hoped to understand how to create new shaders using <span style="color:#FF7D14">GLSL</span>. Here, I replicated and compared many common lighting shaders, from old <span style="color:#FF7D14">Gourand Shaders</span>, to newer <span style="color:#FF7D14">Blinn-phong shaders</span>. I also coded various <span style="color:#FF7D14">material properties</span> to the surfaces for unique shiny effects.
+							</p>
+							<a href="./projects/GLShaders/GLShaders.html" target="_blank"><p class="smaller-text">Click to Open Interactive Demo</p></a>
+							<a href="./projects/GLShaders/GLShaders.pdf" target="_blank"><p class="smaller-text">Project Instructions</p></a>
+						</div>
+						<div class="event-break"></div>
+					</div>
+					<hr/>
+				</div>
+			</div>
+	</body>
+</html>
