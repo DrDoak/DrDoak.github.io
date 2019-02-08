@@ -288,6 +288,12 @@ hr {
 	color: #FFE98C;
 }
 
+.collaborators {
+	font-size: 1em;
+	font-family: 'Lato';
+	color: white;
+}
+
 #little-deity {
 	content: url(../img/Little_Deity_gameplay.gif) ;
    	height: auto;
