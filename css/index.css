@@ -332,6 +332,12 @@ hr {
 	content: url(../img/lua_title.gif) ;
 	display: inline-block
 }
+#FromEarthToMars {
+	content: url(../img/fetm.gif);
+	height: auto;
+   	max-width: 100%;
+   	max-height: 100%;
+}
 #gl-image_holder {
 	/*background-image: url(../img/gl_raytrace.png) ;*/
 	max-height: 500px;
