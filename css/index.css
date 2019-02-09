@@ -37,6 +37,10 @@ a:hover {
     color: #ADA622;
     background-image: url(../img/button_hover.png) ;
 }
+.scroll:active{
+	background-image: url(../img/button_pressed.png) !important ;
+	transform: translateY(4px);
+}
 
 #center-image {
 	text-align: center;
@@ -64,8 +68,9 @@ body {
 }
 
 .body-section {
-	background-image: url(../img/textbox_entry.png) ;
-	background-size: 100% 100%;
+	background-image: url(../img/tray_noborder.png) ;
+	/*background-size: 100% 100%;*/
+	background-repeat: repeat;
 	text-align: center;
 /*	background-repeat: no-repeat;
 	min-width: 700px;
@@ -193,13 +198,16 @@ hr {
 
 .desc-content {
 	/*position: relative;*/
-	top: 10%;
+/*	top: 10%;
 	padding-left: 20%;
-	width: 80%;
+	width: 80%;*/
 	font-family: 'Lato';
 	color: #FFE98C;
 }
 
+.content-card {
+	background-color:#261000;
+}
 .section-title {
 	top: 10%;
 	padding-left: 20%;
@@ -211,14 +219,15 @@ hr {
 }
 #about-logo {
 	margin-left: 30%;
-	width: 40%;
+	width: 100%;
+	max-width: 900px;
 	display: block;
 	/*box-shadow: 2px 2px 2px black;*/
 }
 
 #profile-pic {
-	margin-left: 35%;
-	width: 30%;
+	width:100%;
+	max-width: 360px;
 	display: block;
 }
 
@@ -278,12 +287,22 @@ hr {
 }
 
 .smaller-text {
-	font-size: 1.2em;
+	font-size: 1.0em;
 	width: 100%;
 	font-family: 'Lato';
 	color: #FFE98C;
 }
 
+.link-text {
+	font-size:2.0em;
+	color: #FFE900;
+	width: 100%;
+	font-family: 'VT323';
+}
+
+.link-text:hover {
+	color: #FFF6A8;
+}
 .collaborators {
 	font-size: 1em;
 	font-family: 'Lato';
