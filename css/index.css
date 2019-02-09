@@ -66,14 +66,15 @@ body {
 .body-section {
 	background-image: url(../img/textbox_entry.png) ;
 	background-size: 100% 100%;
-	background-repeat: no-repeat;
+	text-align: center;
+/*	background-repeat: no-repeat;
 	min-width: 700px;
 	width: 75%;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto; 
 	padding-top:4%;
-	padding-bottom:4%;
+	padding-bottom:4%;*/
 }
 
 .body-bkg {
@@ -109,9 +110,10 @@ hr {
 	/*background-position: left bottom + 30px;*/
 	background-position: to
 	background-repeat: repeat-x;
-	min-height: 90px;
+	min-height: 80px;
 	height: 10.9375vh;
-	max-height: 128px;
+	max-height: 100px;
+	z-index: 1;
 	/*min-width: 700px;*/
 }
 
@@ -155,36 +157,19 @@ hr {
 	background-image: url(../img/brick.png);
 	background-repeat: repeat;
 	background-position: left bottom;
-	color: white;
-	text-align: center;
-	min-height: 100vh;
-	min-width: 700px;
+	background-color: blue;
 }
+.bg {
+  /* The image used */
+  background-image: url(../img/brick.png);
 
-#index-body h1, h2, h3, h4, h5 h6 {
-	margin-top: 0;
-	margin-bottom: 0;
-	text-shadow: 3px 3px black;
-}
+  /* Full height */
+  height: 100%;
 
-#index-body hr {
-	box-shadow: 0px 2px black;
-}
-
-#index-body h2 {
-	font-size: 3.4em;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-#index-body h3 {
-	font-size: 2.5em;
-	padding-top: 12px;
-	padding-bottom: 12px;
-}
-
-#index-body p {
-	/*font-size: 1.8em;*/
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .text-center {
@@ -209,12 +194,21 @@ hr {
 .desc-content {
 	/*position: relative;*/
 	top: 10%;
-	padding-left: 10%;
+	padding-left: 20%;
 	width: 80%;
 	font-family: 'Lato';
 	color: #FFE98C;
 }
 
+.section-title {
+	top: 10%;
+	padding-left: 20%;
+	width: 80%;
+	color: #9c39b2;
+	font-size: 3.0em;
+	text-align: center;
+	text-shadow: 3px 3px black;
+}
 #about-logo {
 	margin-left: 30%;
 	width: 40%;
@@ -242,6 +236,7 @@ hr {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	max-width: 150px;
+	font: 0.6em;
 
 }
 
@@ -284,6 +279,7 @@ hr {
 
 .smaller-text {
 	font-size: 1.2em;
+	width: 100%;
 	font-family: 'Lato';
 	color: #FFE98C;
 }
