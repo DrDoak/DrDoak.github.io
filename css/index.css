@@ -118,9 +118,9 @@ hr {
 	opacity: 0.7;
 	transition: .5s ease;
 }
-.card-1:hover{
+/*.card-1:hover{
 	opacity:0.8 !important;
-}
+}*/
 #card-2{
 	background-image: url(../img/CAMI_wall.png);
 	background-size:cover
@@ -134,8 +134,8 @@ hr {
 	background-size:cover
 }
 .title-screen-cards:hover {
-  background-color: rgba(30, 30, 30, 0.9);
-  color: rgba(255,255,255,0.9);
+  background-color: rgba(30, 30, 30, 1);
+  color: rgba(255,255,255,1);
 }
 
 
@@ -157,7 +157,7 @@ hr {
 }
 
 .card-text:hover {
-  /*background-color: rgba(30, 30, 30, 0.);*/
+  background-color: rgba(30, 30, 30, 0.8);
   opacity: 1;
 }
 
