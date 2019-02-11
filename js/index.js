@@ -8,9 +8,9 @@ const textFlashId = 'text-flashing';
 
 /* Globals */
 
-var scroll = new SmoothScroll('a[href*="#"]', {
-	// Options
-});
+// var scroll = new SmoothScroll('a[href*="#"]', {
+// 	// Options
+// });
 var hasEntered = false;
 var hasLoaded = false;
 var keys = {37: 1, 38: 1, 39: 1, 40: 1};
